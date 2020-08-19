@@ -12,4 +12,8 @@ installer -pkg /Volumes/Display\ Manager/Uninstall.pkg -target /
 
 hdiutil unmount /Volumes/Display\ Manager
 
+rm -rf /Users/verkada/DisplayManager-1.0.2.dmg
+
 killall Verkada
+
+echo "All done"
