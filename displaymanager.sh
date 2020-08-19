@@ -12,4 +12,4 @@ installer -pkg /Volumes/Display\ Manager/Uninstall.pkg -target /
 
 hdiutil unmount /Volumes/Display\ Manager
 
-shutdown -r now
+killall Verkada
