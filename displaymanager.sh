@@ -11,3 +11,5 @@ installer -pkg /Volumes/Display\ Manager/DisplayManager-1.0.2.pkg -target /
 installer -pkg /Volumes/Display\ Manager/Uninstall.pkg -target /
 
 hdiutil unmount /Volumes/Display\ Manager
+
+shutdown -r now
