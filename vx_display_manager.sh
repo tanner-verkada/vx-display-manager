@@ -1,7 +1,7 @@
   
 #!/bin/bash
 
-curl -o /Users/verkada/DisplayManager-1.0.2.dmg https://github.com/univ-of-utah-marriott-library-apple/display_manager/releases/download/1.0.2/DisplayManager-1.0.2.dmg
+curl -L -o /Users/verkada/DisplayManager-1.0.2.dmg https://github.com/univ-of-utah-marriott-library-apple/display_manager/releases/download/1.0.2/DisplayManager-1.0.2.dmg
 
 hdiutil mount /Users/verkada/DisplayManager-1.0.2.dmg
 
